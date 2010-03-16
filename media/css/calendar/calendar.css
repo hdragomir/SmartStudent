@@ -1,0 +1,80 @@
+#days-container{
+    margin-left: 51px;
+    width: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.one-day{
+    height: 1490px;
+    position: relative;
+    width: 13%;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+    float: left;
+    background: url(images/day-tile.gif);
+    background-position: 0 50px;
+}
+
+.one-day .event{
+    position: absolute;
+    width: 100%;
+    text-indent: 4px;
+    background-color: #D2691E;
+    color: white;
+    min-height:35px!important;
+}
+
+
+.one-day .event.third{
+    background-color: #9fdeff;
+    color:black;
+}
+
+.one-day .event.exam{
+    background-color: #fffb8d;
+    color: black;
+}
+.one-day .event.course{
+    background-color: #ceffb6;
+    color:#000;
+}
+
+.one-day .day-header{
+    height: 30px;
+    background-color: black;
+    color: #787878;
+    padding: 10px;
+}
+
+.one-day.current .day-header{
+    background-color: #333;
+}
+
+#left-hourline{
+    float: left;
+    width: 50px;
+    margin: 50px 0 0 20px;
+    padding: 0;
+}
+
+
+#left-hourline li{
+    list-style: none;
+    height: 119px;
+    border-top: 1px #ccc solid;
+}
+
+.add-event-to-date{
+    float: right;
+    display: inline-block;
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+.add-event-to-date:hover{
+    background-color: #efefef;
+    color: #121212;
+}

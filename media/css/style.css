@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+a img{
+    border: none;
+}
+
+body{
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	margin:0 auto 0 auto;
+
+	font-size:13px;
+
+}
+label {
+	font-size: 15px;
+	color:#5c5c5c;	
+}
+
+a {
+
+	color:#02628e;
+
+	text-decoration:underline;
+
+}
+
+
+
+#site {
+
+		margin:0 auto 0 auto;
+
+		min-width:500px;
+
+		height:auto;
+
+		}
+
+#main {
+
+		margin:100px auto 0 auto;
+
+		width:460px;
+
+		height:auto;
+
+		}
+
+#logo {
+
+	background:url(images/logo.png) center no-repeat;
+
+  /*  position:absolute;
+
+    left:64px;
+
+    top:136px;*/
+
+    width:330px;
+
+    height:47px;
+
+	margin-bottom:17px;
+
+	margin-left:67px;
+
+}
+
+#login {
+
+	background:url(images/form.png) center no-repeat;
+
+   /* position:absolute;
+
+    left:0px;
+
+    top:200px;*/
+
+    width:460px;
+
+    height:300px;
+
+}		
+
+#username, #password, #title, #location, #start_date, #end_date{
+
+	border:1px solid #7f7f7f;
+
+	color:#616161;
+
+	width:223px;
+
+	height:25px;
+
+	margin: 5px 0 0 0;
+
+	vertical-align:middle;
+
+	padding-top:5px;
+
+}
+
+#loginbutton {
+
+	background:url(images/login.png) center no-repeat;
+
+	width:129px;
+
+	height:42px;
+
+	border:0px;
+
+	color:#FFF;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+	margin-bottom:5px;
+
+	margin-top:10px;
+
+}
+
+
+
+#loginbutton:hover {
+
+	background-image:url(images/login-hover.png);
+
+	cursor:pointer;
+
+}
+
+#formlogin {
+
+	padding-top:50px;
+
+	padding-bottom:3px;
+
+}
+#formsignup {
+
+	padding-top:3px;
+
+	padding-bottom:3px;
+
+}
+#signupbutton {
+
+	background:url(images/signup.png) center no-repeat;
+
+	width:129px;
+
+	height:29px;
+
+	border:0px;
+
+	color:#FFF;
+
+	font-size:15px;
+
+	text-decoration:none;
+
+	margin-top:2px;
+
+}
+
+
+
+#signupbutton:hover {
+
+	background-image:url(images/signup-hover.png);
+
+	cursor:pointer;
+
+}
+
+#contlogin, #contsignup {
+
+	margin-left:67px;
+
+	margin-right:30px;
+
+	padding-top: 20px;
+
+	}
+#contsignup input, select{
+	margin-top:7px;	
+	padding-left:10px;
+}
+#poweredby {
+
+	background:url(images/poweredby.png) center no-repeat;
+
+	width:36px;
+
+	height:13px;
+
+	margin-left:67px;
+
+}
+
+#power {
+
+	color: #717171;
+
+	font-size:11px;
+
+	margin-left:67px;
+
+}
+
+#container {
+
+	margin:0 auto 0 auto;
+
+    min-width:730px;
+
+    height:auto;	
+
+}
+
+#header {
+
+	background: url(images/header.jpg) center repeat-x;
+
+	width:auto;
+
+	height:206px;
+
+}
+
+#user, #top-login{
+
+	text-align:right;
+
+	margin-right:40px;
+
+	/*margin-top:13px;*/
+
+    padding-top: 10px;
+
+	margin-bottom: 10px;
+
+}
+
+#dunga{
+
+	background: url(images/dunga.jpg) center repeat-x;
+
+	height:2px;
+
+	width:auto;
+
+	margin-right:40px;
+
+	margin-left:40px;
+
+}
+#logo2 {
+    margin-left:40px;
+    margin-top:15px;
+    
+}
+#main2{
+	margin:100px auto 0 auto;
+
+		width:550px;
+
+		height:auto;
+}
+#logout {
+	background:url(images/logout.png) center no-repeat;
+	color:#fff;
+	text-decoration:none;
+}
+#meniu{
+	margin-left:40px;
+	margin-top:40px;
+}
+#meniu a {
+	float:left;
+	margin-right:5px;	
+}
+
+#addform {
+	margin: 50px auto; width: 150px;
+}
+#submeniu {
+	background:url(images/meniu.jpg) center repeat-x;
+	color:#fff;
+	text-decoration:none;
+}
